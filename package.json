@@ -1,0 +1,20 @@
+{
+  "name":"homeroom",
+  "description":"NodeJS OO Class System",
+  "version":"0.0.1",
+  "author":"Edward Hotchkiss <e@ingk.com>",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/edwardhotchkiss/homeroom.git"
+  },
+  "dependencies":{
+  },
+  "licenses":[{ 
+    "type":"MIT",
+    "url":"http://github.com/edwardhotchkiss/homeroom/LICENSE"
+  }],
+  "main":"./lib/homeroom.js",
+  "engines":{ 
+    "node":">= 0.4.12"
+  }
+}
