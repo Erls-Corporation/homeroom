@@ -2,7 +2,7 @@
 homeroom
 ========
 
-# homeroom, the only fucking class that I ever went to (a NodeJS OO Class Factory)
+# homeroom, the only class that I ever went to (a NodeJS Class Factory)
 
 ```javascript
 

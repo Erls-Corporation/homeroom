@@ -4,7 +4,7 @@ var vows = require("vows");
 var assert = require("assert");
 var should = require("should");
 
-// CORE
+// HOMEROOM
 var homeroom = require("../lib/homeroom");
 
 // VOWS!
