@@ -1,6 +1,6 @@
 {
   "name":"homeroom",
-  "description":"NodeJS OO Class System",
+  "description":"homeroom, the only fucking class that I ever went to (a NodeJS OO Class Factory)",
   "version":"0.0.1",
   "author":"Edward Hotchkiss <e@ingk.com>",
   "repository":{
@@ -8,6 +8,13 @@
     "url":"https://github.com/edwardhotchkiss/homeroom.git"
   },
   "dependencies":{
+  },
+  "devDependencies":{
+    "vows":"",
+    "shoudl":""
+  },
+  "scripts": {
+    "test": "vows test/*.test.js --spec"
   },
   "licenses":[{ 
     "type":"MIT",
