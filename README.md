@@ -1,5 +1,5 @@
 
-# Homeroom
+# Homeroom [![Build Status](https://secure.travis-ci.org/edwardhotchkiss/homeroom.png)](http://travis-ci.org/edwardhotchkiss/homeroom)
 
 > The only Class that I ever went to (a NodeJS Class Factory)
 
