@@ -1,25 +1,30 @@
 
-# homeroom
+# Homeroom
 
 > The only Class that I ever went to (a NodeJS Class Factory)
 
+## Installation
+
+```bash
+$ npm install homeroom
+```
+
+## Usage
+
 ```javascript
 
-var homeroom = require('homeroom');
+var Class = require('homeroom');
 
-var myModule = new homeroom('myModule' {
+var mathematics = new Class('myModule' {
   __constructor():function() {
     console.log('class instantiated');
   },
-  __destructor():function() {
-    console.log('class destroyed');
-  },
   multiply:function(a, b) {
-    console.log(a*b);
+    console.log(a * b);
   }
 });
 
-myModule.multiply(10, 10);
+mathematics.multiply(10, 10);
 => 100
 
 /* EOF */
