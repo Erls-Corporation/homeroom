@@ -3,7 +3,8 @@
   Core Modules
  */
 
-var vows = require('vows'),
+var mathematics,
+    vows = require('vows'),
     assert = require('assert'),
     should = require('should'),
     homeroom = require('../lib/homeroom');
@@ -23,14 +24,14 @@ vows.describe('General Module Tests').addBatch({
   },
   'when creating a class called mathematics with a method multiple' : {
     topic : function() {
-      var mathematics = new homeroom('mathematics', {
-        __constructor() : function() {
+      mathematics = new homeroom('mathematics', {
+        __constructor:function() {
           console.log('class instantiated');
         },
-        __destructor() : function() {
+        __destructor:function() {
           console.log('class destroyed');
         },
-        multiply : function(a, b) {
+        multiply:function(a, b) {
           return a*b;
         }
       });
