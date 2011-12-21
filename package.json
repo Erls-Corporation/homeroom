@@ -10,8 +10,7 @@
   "dependencies":{
   },
   "devDependencies":{
-    "vows":"",
-    "shoudl":""
+    "vows":"0.6.0"
   },
   "scripts": {
     "test": "vows test/*.test.js --spec"

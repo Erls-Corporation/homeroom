@@ -6,7 +6,6 @@
 var mathematics,
     vows = require('vows'),
     assert = require('assert'),
-    should = require('should'),
     Class = require('../lib/homeroom');
 
 /*!
@@ -18,8 +17,8 @@ vows.describe('General Module Tests').addBatch({
     topic : function() { 
       return Class;
     },
-    'homeroom should be a function' : function(topic) {
-      topic.should.be.a('function');
+    'homeroom should be a function':function(topic) {
+      assert.strictEqual(typeof(topic), 'function');
     },
   },
   'when creating a class called mathematics with a method multiple' : {
