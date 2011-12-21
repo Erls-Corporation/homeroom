@@ -1,7 +1,7 @@
 {
   "name":"homeroom",
-  "description":"homeroom, the only class that I ever went to (a NodeJS Class Factory)",
-  "version":"0.0.1-1",
+  "description":"The only Class that I ever went to (a NodeJS Class Factory)",
+  "version":"0.0.1-2",
   "author":"Edward Hotchkiss <e@ingk.com>",
   "repository":{
     "type":"git",
