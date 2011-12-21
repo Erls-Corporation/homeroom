@@ -7,7 +7,7 @@ var mathematics,
     vows = require('vows'),
     assert = require('assert'),
     should = require('should'),
-    homeroom = require('../lib/homeroom');
+    Class = require('../lib/homeroom');
 
 /*!
   Vows
@@ -16,7 +16,7 @@ var mathematics,
 vows.describe('General Module Tests').addBatch({
   'when instantiating homeroom' : {
     topic : function() { 
-      return homeroom;
+      return Class;
     },
     'homeroom should be a function' : function(topic) {
       topic.should.be.a('function');
@@ -24,7 +24,7 @@ vows.describe('General Module Tests').addBatch({
   },
   'when creating a class called mathematics with a method multiple' : {
     topic : function() {
-      mathematics = new homeroom('mathematics', {
+      mathematics = new Class('mathematics', {
         __constructor:function() {
           console.log('class instantiated');
         },
